@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.6.1">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -3337,7 +3337,9 @@ Octopart Url : http://octopart.com/vlms1300-gs08-vishay-21709201</description>
 <part name="SUPPLY7" library="supply2" deviceset="VCC" device="" value="VDDA"/>
 <part name="SUPPLY9" library="supply2" deviceset="VDD" device=""/>
 <part name="JP2" library="pinhead" deviceset="PINHD-1X3" device="" package3d_urn="urn:adsk.eagle:package:22458/2"/>
-<part name="U2" library="SAM-M8Q-0-10" deviceset="SAM-M8Q-0-10" device="" override_package3d_urn="urn:adsk.eagle:package:37789442/2" override_package_urn="urn:adsk.eagle:footprint:37789443/1"/>
+<part name="U2" library="SAM-M8Q-0-10" deviceset="SAM-M8Q-0-10" device="" override_package3d_urn="urn:adsk.eagle:package:37789442/2" override_package_urn="urn:adsk.eagle:footprint:37789443/1">
+<attribute name="MP" value="SAM-M10Q-00B"/>
+</part>
 <part name="SUPPLY5" library="supply2" deviceset="VDD" device=""/>
 <part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C8" library="HEXABITZ_RCLS" library_urn="urn:adsk.eagle:library:20064561" deviceset="C-0603" device="" package3d_urn="urn:adsk.eagle:package:19666468/2" value="100nF"/>
@@ -8735,7 +8737,7 @@ Octopart Url : http://octopart.com/vlms1300-gs08-vishay-21709201</description>
 <instances>
 <instance part="U2" gate="G$1" x="184.15" y="107.95" smashed="yes">
 <attribute name="NAME" x="168.91" y="124.079" size="1.778" layer="95"/>
-<attribute name="VALUE" x="168.91" y="90.17" size="1.778" layer="96"/>
+<attribute name="MP" x="168.91" y="90.17" size="1.778" layer="96"/>
 </instance>
 <instance part="SUPPLY5" gate="G$1" x="212.09" y="128.27" smashed="yes">
 <attribute name="VALUE" x="215.265" y="133.35" size="1.778" layer="96" rot="R180"/>

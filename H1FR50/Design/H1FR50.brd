@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.6.1">
+<eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="3.125" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
@@ -2113,7 +2113,7 @@ design rules under a new name.</description>
 <attribute name="AVAILABILITY" value="In Stock" x="15.001875" y="8.73125" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DESCRIPTION" value=" series RF Receiver Galileo, GLONASS, GPS 1.575GHz, 1.602GHz -165dBm 400kbps On-Board, Patch Module " x="15.001875" y="8.73125" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MF" value="U-Blox" x="15.001875" y="8.73125" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MP" value="SAM-M8Q-0-10" x="15.001875" y="8.73125" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MP" value="SAM-M10Q-00B" x="15.001875" y="8.73125" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="20.3825" y="-1.459375" size="1.27" layer="25"/>
 <attribute name="PACKAGE" value="SMD-20 u-blox" x="15.001875" y="8.73125" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="PRICE" value="None" x="15.001875" y="8.73125" size="1.778" layer="27" rot="R180" display="off"/>
